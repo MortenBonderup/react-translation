@@ -6,6 +6,11 @@ import Nav from "./components/Nav";
 import CreatePage from "./pages/CreatePage";
 
 function App() {
+    // Nav is the visible navigation.
+    // Routes defines different routes the app
+    // can take - some might not be directly 
+    // accessible by users and used by useNavigate.
+    // See PostCard.js for an example.
     return (
         <main>
             <Nav />
