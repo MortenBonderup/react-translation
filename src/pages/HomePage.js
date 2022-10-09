@@ -4,6 +4,7 @@ import PostCard from "../components/Postcard";
 export default function HomePage() {
   const [posts, setPosts] = useState([]);
   const [isPosts, setIsPosts] = useState(true);
+  
   useEffect(() => {
     async function getPosts() {
       const url =
