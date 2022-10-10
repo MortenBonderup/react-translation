@@ -31,6 +31,7 @@ export default function PostCard({post}) {
           <p>[Dk]</p>
           <p>{post.dk}</p>
         </div>
+        <img src={post.iconurl} alt="flag" style={{width:"50px"}}></img>
       </section>
     </div>
   );
